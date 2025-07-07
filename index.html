@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heptagrama Mágico</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Heptagrama Mágico</h1>
+      <p class="subtitle">Digite as palavras mágicas separadas por vírgula:</p>
+
+      <div class="input-container">
+        <input type="text" id="magicWords" placeholder="Ex: Dragão,Magia,Aventura,Herói" />
+      </div>
+
+      <div class="button-container">
+        <button id="decipherBtn" style="--clr: #ff0044">
+          <span>DECIFRAR</span>
+          <i></i>
+        </button>
+
+        <button id="returnBtn" style="--clr: #ff0044">
+          <span>RETORNAR</span>
+          <i></i>
+        </button>
+      </div>
+
+      <div class="result-container">
+        <h2>Resultado Mágico:</h2>
+        <div id="resultOutput" class="result-output"></div>
+        <div id="calculationSteps" class="calculation-steps"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
